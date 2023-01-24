@@ -30,3 +30,15 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+#4 store the rate in USD of bitcoin
+
+rate = bitcoin_data ["bpi"]["USD"]["rate_float"]
+
+#5
+value = rate * bitcoin
+
+puts value
+
+#6
+
